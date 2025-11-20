@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rivera | FP&A Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Light grey/off-white background */
+        }
+        /* Custom shadow for cards to give a sense of depth */
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Color palette optimized for financial/corporate theme */
+        .primary-color { background-color: #1e3a8a; } /* Dark Blue */
+        .secondary-color { color: #1e3a8a; } /* Dark Blue text */
+    </style>
+</head>
+<body>
+    <div id="app" class="min-h-screen">
+
+        <!-- Header/Navigation Bar -->
+        <header class="primary-color text-white shadow-lg">
+            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                    <h1 class="text-3xl font-extrabold tracking-tight">Alex Rivera</h1>
+                    <p class="mt-1 md:mt-0 text-xl font-light opacity-80">Financial Planning & Analysis Professional</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Container -->
+        <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+
+            <!-- Professional Summary Section -->
+            <section id="summary" class="mb-16">
+                <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-blue-600">
+                    <h2 class="text-2xl font-bold secondary-color mb-4">Executive Summary</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Highly analytical and strategic FP&A professional with 8+ years of experience in driving business decisions through advanced financial modeling, dynamic budgeting, and deep variance analysis. Proven ability to translate complex financial data into actionable insights for executive leadership, optimizing resource allocation and maximizing profitability in fast-paced corporate environments.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 secondary-color">Core FP&A Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Skill Card 1 -->
+                    <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-blue-500 transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/><path d="M12 2l-2 2m2-2l2 2m-2 20l-2-2m2 20l2-2"/></svg>
+                        <h3 class="font-semibold text-lg text-gray-900 mb-1">Financial Modeling</h3>
+                        <p class="text-sm text-gray-600">Expert in developing 3-statement models, LBOs, and DCF valuations.</p>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-blue-500 transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="10" y2="9"/></svg>
+                        <h3 class="font-semibold text-lg text-gray-900 mb-1">Budgeting & Forecasting</h3>
+                        <p class="text-sm text-gray-600">Managed annual budget cycles and rolling forecasts for multi-million dollar business units.</p>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-blue-500 transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7-4.1 4.3"/></svg>
+                        <h3 class="font-semibold text-lg text-gray-900 mb-1">Data & Reporting</h3>
+                        <p class="text-sm text-gray-600">Proficiency in SQL, Tableau, and Power BI for executive-level data visualization.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Experience (Resume Section) -->
+            <section id="experience" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 secondary-color">Professional Experience</h2>
+                <div class="space-y-8 relative before:absolute before:inset-y-0 before:left-3 before:w-0.5 before:bg-gray-200 md:before:left-1/4">
+                    
+                    <!-- Experience 1 -->
+                    <div class="relative pl-6 md:pl-0 md:w-3/4 md:ml-auto">
+                        <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-blue-600 ring-4 ring-white md:left-1/4 md:-translate-x-1/2"></div>
+                        <div class="md:p-4 p-2 bg-white rounded-xl card-shadow md:ml-10 ml-0">
+                            <h3 class="text-xl font-bold secondary-color">FP&A Manager</h3>
+                            <p class="text-md text-gray-800 font-medium">GlobalTech Solutions</p>
+                            <p class="text-sm text-gray-500 mb-2">2022 - Present</p>
+                            <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                                <li>Led the annual budgeting process for a $500M operating budget, resulting in a 10% reduction in discretionary spending.</li>
+                                <li>Developed and maintained the company's long-range strategic financial model (5-year outlook).</li>
+                                <li>Presented monthly performance reviews and strategic recommendations to the CFO and executive team.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="relative pl-6 md:pl-0 md:w-3/4 md:ml-auto">
+                        <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-blue-600 ring-4 ring-white md:left-1/4 md:-translate-x-1/2"></div>
+                        <div class="md:p-4 p-2 bg-white rounded-xl card-shadow md:ml-10 ml-0">
+                            <h3 class="text-xl font-bold secondary-color">Senior Financial Analyst</h3>
+                            <p class="text-md text-gray-800 font-medium">DataCorp Inc.</p>
+                            <p class="text-sm text-gray-500 mb-2">2018 - 2022</p>
+                            <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                                <li>Built automated operational dashboards in Tableau, reducing manual reporting time by 15 hours per week.</li>
+                                <li>Conducted deep-dive cost analysis for R&D projects, optimizing project portfolio value by 8%.</li>
+                                <li>Supported quarterly earnings preparation and investor relations materials.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- FP&A Projects Portfolio Section -->
+            <section id="projects" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 secondary-color">Featured FP&A Projects</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    
+                    <!-- Project Card 1: Budget-to-Actual Dashboard -->
+                    <div class="bg-white rounded-xl overflow-hidden card-shadow">
+                        <div class="p-6">
+                            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-3">Data Visualization</span>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Interactive Variance Analysis Dashboard</h3>
+                            <p class="text-gray-700 mb-4 text-sm">A real-time dashboard used to quickly identify and explain budget-to-actual variances across multiple departments, driving proactive cost management.</p>
+                            <div class="flex flex-wrap gap-2 text-xs font-medium">
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Power BI</span>
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">SQL</span>
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Drill-Down Logic</span>
+                            </div>
+                            <!-- Mock button/link to project details -->
+                            <a href="#" class="mt-4 inline-block secondary-color hover:text-blue-800 font-medium text-sm">View Details →</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2: Strategic Financial Model -->
+                    <div class="bg-white rounded-xl overflow-hidden card-shadow">
+                        <div class="p-6">
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-3">Strategic Modeling</span>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">M&A Scenario Analysis & Valuation</h3>
+                            <p class="text-gray-700 mb-4 text-sm">Comprehensive financial model including accretion/dilution analysis, synergy projections, and valuation scenarios for potential acquisition targets.</p>
+                            <div class="flex flex-wrap gap-2 text-xs font-medium">
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Advanced Excel</span>
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">DCF/WACC</span>
+                                <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Sensitivity Testing</span>
+                            </div>
+                            <!-- Mock button/link to project details -->
+                            <a href="#" class="mt-4 inline-block secondary-color hover:text-blue-800 font-medium text-sm">View Details →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 secondary-color">Education</h2>
+                <div class="bg-white p-6 rounded-xl card-shadow">
+                    <h3 class="text-xl font-bold text-gray-900">M.S. in Finance</h3>
+                    <p class="text-gray-700">The State University</p>
+                    <p class="text-sm text-gray-500 mt-1">Graduated: 2017</p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer/Contact Section -->
+        <footer class="primary-color text-white py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-xl font-semibold mb-3">Let's Connect</h3>
+                <div class="space-x-4 text-sm font-light">
+                    <span class="opacity-80">Email: alex.rivera@example.com</span>
+                    <span class="opacity-80">|</span>
+                    <span class="opacity-80">LinkedIn: /in/alexrivera-fpa</span>
+                </div>
+                <p class="mt-4 text-xs opacity-60">&copy; 2025 Alex Rivera. FP&A Portfolio.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
