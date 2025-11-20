@@ -21,6 +21,11 @@
         /* Updated to Emerald Green */
         .primary-color { background-color: #047857; } /* Deep Emerald 700 */
         .secondary-color { color: #047857; } /* Deep Emerald 700 text */
+
+        /* Style for the new link */
+        .footer-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -50,7 +55,7 @@
                 <div class="bg-white p-8 rounded-xl card-shadow border-t-4 border-emerald-600">
                     <h2 class="text-2xl font-bold secondary-color mb-4">Executive Summary</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Results-oriented Financial Planning & Analysis professional with a proven track record of implementing process automation, leading cross-functional financial strategy, and managing multi-million dollar budgets across leading tech and energy corporations. Expertise in constructing complex financial models, simplifying reporting processes, and delivering critical margin and revenue insights to executive leadership.
+                        Results-oriented Financial Planning & Analysis professional with a proven track record of implementing process automation, leading cross-functional financial strategy, and managing multi-million dollar budgets across leading tech and energy corporations. Expertise in constructing complex financial models, simplifying reporting processes, and delivering critical margin and revenue insights to executive leadership
                     </p>
                 </div>
             </section>
@@ -63,25 +68,25 @@
                     <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/><path d="M12 2l-2 2m2-2l2 2m-2 20l-2-2m2 20l2-2"/></svg>
                         <h3 class="font-semibold text-lg text-gray-900 mb-1">Financial Modeling & Forecasting</h3>
-                        <p class="text-sm text-gray-600">Expert in developing cross-functional revenue/margin models and leading annual budget/forecasting cycles.</p>
+                        <p class="text-sm text-gray-600">Expert in developing cross-functional revenue/margin models and leading annual budget/forecasting cycles</p>
                     </div>
                     <!-- Skill Card 2: Budgeting & Variance -->
                     <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10s-2 1-3 1-3-1-3-1l-1 1-2 2-2 2-3 3c-1 1-3 1-3 0s1-3 0-3l3-3 2-2 2-2 1-1s-1-1-1-3 1-3 1-3"/><path d="M7 10h.01"/><path d="M17 14h.01"/></svg>
                         <h3 class="font-semibold text-lg text-gray-900 mb-1">Budgeting & Expense Control</h3>
-                        <p class="text-sm text-gray-600">Supervised multi-$100M global budgets, optimized allocation, and delivered precise variance analysis.</p>
+                        <p class="text-sm text-gray-600">Supervised multi-$100M global budgets, optimized allocation, and delivered precise variance analysis</p>
                     </div>
                     <!-- Skill Card 3: Automation & Process -->
                     <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/><path d="M12 18h.01"/></svg>
                         <h3 class="font-semibold text-lg text-gray-900 mb-1">Process Automation</h3>
-                        <p class="text-sm text-gray-600">Automated expense reporting and redesigned business partner reporting, reducing cycle time by 25%.</p>
+                        <p class="text-sm text-gray-600">Automated expense reporting and redesigned business partner reporting, reducing cycle time by 25%</p>
                     </div>
                     <!-- Skill Card 4: Technical Systems -->
                     <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16M4 7h16M10 3v4M14 3v4M10 17v4M14 17v4"/></svg>
                         <h3 class="font-semibold text-lg text-gray-900 mb-1">EPM & Reporting Tools</h3>
-                        <p class="text-sm text-gray-600">Proficiency in OneStream, Hyperion, Essbase, Anaplan, SAP, Oracle, Looker Studio, and SQL.</p>
+                        <p class="text-sm text-gray-600">Proficiency in OneStream, Hyperion, Essbase, Anaplan, SAP, Oracle, Looker Studio, and SQL</p>
                     </div>
                 </div>
             </section>
@@ -93,59 +98,104 @@
                     
                     <!-- Experience 1: Capital One -->
                     <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
-                        <h3 class="text-xl font-bold secondary-color">Principal Financial Analyst</h3>
-                        <p class="text-md text-gray-800 font-medium">Capital One Financial Corporation | McLean, VA</p>
+                        <!-- Card Header with Logo -->
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold secondary-color">Principal Financial Analyst</h3>
+                                <p class="text-md text-gray-800 font-medium">Capital One Financial Corporation | McLean, VA</p>
+                            </div>
+                            <img src="https://logo.clearbit.com/capitalone.com?size=80" 
+                                alt="Capital One Logo" 
+                                class="w-10 h-10 rounded-lg flex-shrink-0 ml-4"
+                                onerror="this.onerror=null; this.src='https://placehold.co/40x40/0071C2/ffffff?text=C1'">
+                        </div>
                         <p class="text-sm text-gray-500 mb-2">Sep 2024 - Present</p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                            <li>Automate expense and headcount reporting across 1,500+ roles and $300M+ in spend, increasing forecast precision and reducing reporting cycle time by 25%.</li>
-                            <li>Constructed a dynamic allocation tracker to distribute $25M in year-end savings across 35+ projects, safeguarding budget compliance and optimizing strategic prioritization.</li>
-                            <li>Lead redesign of monthly business partner reporting across 8+ finance teams, streamlining data and freeing critical bandwidth.</li>
+                            <li>Automate expense and headcount reporting across 1,500+ roles and $300M+ in spend, increasing forecast precision and reducing reporting cycle time by 25%</li>
+                            <li>Constructed a dynamic allocation tracker to distribute $25M in year-end savings across 35+ projects, safeguarding budget compliance and optimizing strategic prioritization</li>
+                            <li>Lead redesign of monthly business partner reporting across 8+ finance teams, streamlining data and freeing critical bandwidth</li>
                         </ul>
                     </div>
 
                     <!-- Experience 2: Robinhood -->
                     <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
-                        <h3 class="text-xl font-bold secondary-color">Finance and Strategy Senior Analyst, Engineering</h3>
-                        <p class="text-md text-gray-800 font-medium">Robinhood Markets, Inc. | Menlo Park, CA</p>
+                        <!-- Card Header with Logo -->
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold secondary-color">Finance and Strategy Senior Analyst, Engineering</h3>
+                                <p class="text-md text-gray-800 font-medium">Robinhood Markets, Inc. | Menlo Park, CA</p>
+                            </div>
+                            <img src="https://logo.clearbit.com/robinhood.com?size=80" 
+                                alt="Robinhood Logo" 
+                                class="w-10 h-10 rounded-lg flex-shrink-0 ml-4"
+                                onerror="this.onerror=null; this.src='https://placehold.co/40x40/00C46B/ffffff?text=RH'">
+                        </div>
                         <p class="text-sm text-gray-500 mb-2">Jan 2023 - Sep 2024</p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                            <li>Developed a cross-functional financial model for the CEO and CFO, integrating data from multiple product finance teams to deliver revenue and margin insights by product and job family.</li>
-                            <li>Partnered with Corporate Engineering to engineer an internal reporting tool within Oracle's OCI infrastructure, consolidating expanded product P&L data across 50+ cost centers and 30+ products.</li>
-                            <li>Led workforce alignment analysis using span-of-control templates, identifying cost-saving opportunities across international regions and lower-cost pay zones.</li>
+                            <li>Developed a cross-functional financial model for the CEO and CFO, integrating data from multiple product finance teams to deliver revenue and margin insights by product and job family</li>
+                            <li>Partnered with Corporate Engineering to engineer an internal reporting tool within Oracle's OCI infrastructure, consolidating expanded product P&L data across 50+ cost centers and 30+ products</li>
+                            <li>Led workforce alignment analysis using span-of-control templates, identifying cost-saving opportunities across international regions and lower-cost pay zones</li>
                         </ul>
                     </div>
 
                     <!-- Experience 3: Afterpay -->
                     <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
-                        <h3 class="text-xl font-bold secondary-color">Finance and Strategy Senior Analyst, Marketing</h3>
-                        <p class="text-md text-gray-800 font-medium">Afterpay US, Inc. | San Francisco, CA</p>
+                        <!-- Card Header with Logo -->
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold secondary-color">Finance and Strategy Senior Analyst, Marketing</h3>
+                                <p class="text-md text-gray-800 font-medium">Afterpay US, Inc. | San Francisco, CA</p>
+                            </div>
+                            <img src="https://logo.clearbit.com/afterpay.com?size=80" 
+                                alt="Afterpay Logo" 
+                                class="w-10 h-10 rounded-lg flex-shrink-0 ml-4"
+                                onerror="this.onerror=null; this.src='https://placehold.co/40x40/00F4AB/000000?text=AP'">
+                        </div>
                         <p class="text-sm text-gray-500 mb-2">Mar 2022 - Jan 2023</p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                            <li>Supervised a $150M annual global marketing budget, identifying key risks and opportunities to maintain financial alignment across five countries and ten marketing priorities.</li>
-                            <li>Oversaw $100M+ in monthly co-marketing for 75+ campaigns, verifying accurate billing and ROI alignment with growth teams.</li>
+                            <li>Supervised a $150M annual global marketing budget, identifying key risks and opportunities to maintain financial alignment across five countries and ten marketing priorities</li>
+                            <li>Oversaw $100M+ in monthly co-marketing for 75+ campaigns, verifying accurate billing and ROI alignment with growth teams</li>
                         </ul>
                     </div>
                     
                     <!-- Experience 4: Atmos Energy - Financial Analyst II (Promotion) -->
                     <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
-                        <h3 class="text-xl font-bold secondary-color">Financial Analyst II</h3>
-                        <p class="text-md text-gray-800 font-medium">Atmos Energy Corporation | Dallas, TX</p>
+                        <!-- Card Header with Logo -->
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold secondary-color">Financial Analyst II</h3>
+                                <p class="text-md text-gray-800 font-medium">Atmos Energy Corporation | Dallas, TX</p>
+                            </div>
+                            <img src="https://logo.clearbit.com/atmosenergy.com?size=80" 
+                                alt="Atmos Energy Logo" 
+                                class="w-10 h-10 rounded-lg flex-shrink-0 ml-4"
+                                onerror="this.onerror=null; this.src='https://placehold.co/40x40/006399/ffffff?text=AE'">
+                        </div>
                         <p class="text-sm text-gray-500 mb-2">Jun 2020 - Mar 2022</p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                            <li>Directed a $20M spending initiative with the compliance team to enhance company-wide leak detection models, providing regular reporting and updates to senior finance leadership.</li>
-                            <li>Redesigned revenue forecasting models, improving reporting accuracy for high-volume customers, serving a base of 750+ clients.</li>
-                            <li>Spearheaded the annual margin and revenue budgeting cycle across four regions/customer classes, delivering KPIs to inform short/long-term financial strategy.</li>
+                            <li>Directed a $20M spending initiative with the compliance team to enhance company-wide leak detection models, providing regular reporting and updates to senior finance leadership</li>
+                            <li>Redesigned revenue forecasting models, improving reporting accuracy for high-volume customers, serving a base of 750+ clients</li>
+                            <li>Spearheaded the annual margin and revenue budgeting cycle across four regions/customer classes, delivering KPIs to inform short/long-term financial strategy</li>
                         </ul>
                     </div>
 
                     <!-- Experience 5: Atmos Energy - Financial Analyst I (Initial Role) -->
                     <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
-                        <h3 class="text-xl font-bold secondary-color">Financial Analyst I</h3>
-                        <p class="text-md text-gray-800 font-medium">Atmos Energy Corporation | Dallas, TX</p>
+                        <!-- Card Header with Logo -->
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold secondary-color">Financial Analyst I</h3>
+                                <p class="text-md text-gray-800 font-medium">Atmos Energy Corporation | Dallas, TX</p>
+                            </div>
+                            <img src="https://logo.clearbit.com/atmosenergy.com?size=80" 
+                                alt="Atmos Energy Logo" 
+                                class="w-10 h-10 rounded-lg flex-shrink-0 ml-4"
+                                onerror="this.onerror=null; this.src='https://placehold.co/40x40/006399/ffffff?text=AE'">
+                        </div>
                         <p class="text-sm text-gray-500 mb-2">Jul 2019 - Jun 2020</p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                            <li>Deployed volume metrics obtained in SAP to analyze key seasonality variances in gas volumes, updating with unique weather data for each region to inform seasonal forecasts and annual budget adjustments.</li>
-                            <li>Provided financial data for 4-6 annual rate case filings, supporting precise cost recovery analyses and customer billing adjustments for internal rate and legal teams.</li>
+                            <li>Deployed volume metrics obtained in SAP to analyze key seasonality variances in gas volumes, updating with unique weather data for each region to inform seasonal forecasts and annual budget adjustments</li>
+                            <li>Provided financial data for 4-6 annual rate case filings, supporting precise cost recovery analyses and customer billing adjustments for internal rate and legal teams</li>
                         </ul>
                     </div>
 
@@ -162,7 +212,7 @@
                         <div class="p-6">
                             <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-3">Budget Optimization</span>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Dynamic Year-End Savings Allocation</h3>
-                            <p class="text-gray-700 mb-4 text-sm">Constructed a dynamic allocation tracker to distribute $25M in year-end savings across 35+ projects, safeguarding budget compliance and optimizing strategic prioritization.</p>
+                            <p class="text-gray-700 mb-4 text-sm">Constructed a dynamic allocation tracker to distribute $25M in year-end savings across 35+ projects, safeguarding budget compliance and optimizing strategic prioritization</p>
                             <div class="flex flex-wrap gap-2 text-xs font-medium">
                                 <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Budget Compliance</span>
                                 <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Allocation Modeling</span>
@@ -177,7 +227,7 @@
                         <div class="p-6">
                             <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-3">Strategic Modeling</span>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Executive Product & Margin Model</h3>
-                            <p class="text-gray-700 mb-4 text-sm">Developed a cross-functional financial model for the CEO and CFO, integrating data from multiple product finance teams to deliver revenue and margin insights by product and job family.</p>
+                            <p class="text-gray-700 mb-4 text-sm">Developed a cross-functional financial model for the CEO and CFO, integrating data from multiple product finance teams to deliver revenue and margin insights by product and job family</p>
                             <div class="flex flex-wrap gap-2 text-xs font-medium">
                                 <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">Executive Reporting</span>
                                 <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded">P&L Integration</span>
@@ -198,7 +248,7 @@
                         <h3 class="text-xl font-bold text-gray-900">Master of Business Administration (MBA)</h3>
                         <p class="text-gray-700 font-medium">The Ohio State University - Fisher College of Business | Columbus, OH</p>
                         <p class="text-sm text-gray-500 mt-1">Expected: Dec 2026</p>
-                        <p class="text-xs text-gray-600 mt-2">Leveraged specialized coursework in finance, operations, and data science to develop core business plan, financial models, and SaaS economics tracker for a subscription-based personal finance app.</p>
+                        <p class="text-xs text-gray-600 mt-2">Leveraged specialized coursework in finance, operations, and data science to develop core business plan, financial models, and SaaS economics tracker for a subscription-based personal finance app</p>
                     </div>
                     <div class="bg-white p-6 rounded-xl card-shadow">
                         <h3 class="text-xl font-bold text-gray-900">Bachelor of Science, Economics</h3>
@@ -217,7 +267,9 @@
                 <div class="space-x-4 text-sm font-light">
                     <span class="opacity-80">Email: tcparker323@gmail.com</span>
                     <span class="opacity-80">|</span>
-                    <span class="opacity-80">LinkedIn: www.linkedin.com/in/tcparker323</span>
+                    <span class="opacity-80">
+                        <a href="https://www.linkedin.com/in/tcparker323" target="_blank" class="text-white opacity-80 footer-link">LinkedIn: www.linkedin.com/in/tcparker323</a>
+                    </span>
                 </div>
                 <p class="mt-4 text-xs opacity-60">&copy; 2025 Ty Parker. FP&A Portfolio.</p>
             </div>
