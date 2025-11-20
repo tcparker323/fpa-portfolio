@@ -26,6 +26,13 @@
         .footer-link:hover {
             text-decoration: underline;
         }
+
+        /* Utility for horizontal scrolling on mobile for logos */
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -60,10 +67,12 @@
                 </div>
             </section>
 
-            <!-- Skills Section -->
+            <!-- Skills Section (UPDATED) -->
             <section id="skills" class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 secondary-color">Core FP&A Skills & Systems</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- 1. Core Competencies (3 Centered Columns) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-10">
                     <!-- Skill Card 1: Modeling & Forecasting -->
                     <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/><path d="M12 2l-2 2m2-2l2 2m-2 20l-2-2m2 20l2-2"/></svg>
@@ -82,11 +91,53 @@
                         <h3 class="font-semibold text-lg text-gray-900 mb-1">Process Automation</h3>
                         <p class="text-sm text-gray-600">Automated expense reporting and redesigned business partner reporting, reducing cycle time by 25%</p>
                     </div>
-                    <!-- Skill Card 4: Technical Systems -->
-                    <div class="bg-white p-6 rounded-xl card-shadow hover:ring-2 hover:ring-emerald-500 transition duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 secondary-color mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16M4 7h16M10 3v4M14 3v4M10 17v4M14 17v4"/></svg>
-                        <h3 class="font-semibold text-lg text-gray-900 mb-1">EPM & Reporting Tools</h3>
-                        <p class="text-sm text-gray-600">Proficiency in OneStream, Hyperion, Essbase, Anaplan, SAP, Oracle, Looker Studio, and SQL</p>
+                </div>
+
+                <!-- 2. Technical Systems Section (Logos with Horizontal Scroll) -->
+                <div class="mt-12 bg-white p-6 rounded-xl card-shadow border-l-4 border-emerald-600">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 secondary-color">EPM, ERP, & Reporting Tools</h3>
+                    
+                    <div class="scroll-container flex space-x-8 items-center py-2">
+                        <!-- Technical Skill 1: OneStream -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/onestreamsoftware.com?size=80" alt="OneStream Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/563E9F/ffffff?text=OS'">
+                            <span class="text-xs text-gray-700">OneStream</span>
+                        </div>
+                        <!-- Technical Skill 2: Hyperion/Essbase -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/oracle.com?size=80" alt="Oracle Hyperion Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/F80000/ffffff?text=H'">
+                            <span class="text-xs text-gray-700 text-center leading-tight">Hyperion / Essbase</span>
+                        </div>
+                        <!-- Technical Skill 3: Anaplan -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/anaplan.com?size=80" alt="Anaplan Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/011C54/ffffff?text=APL'">
+                            <span class="text-xs text-gray-700">Anaplan</span>
+                        </div>
+                        <!-- Technical Skill 4: SAP -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/sap.com?size=80" alt="SAP Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/003C7A/ffffff?text=SAP'">
+                            <span class="text-xs text-gray-700">SAP</span>
+                        </div>
+                        <!-- Technical Skill 5: Oracle -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/oracle.com?size=80" alt="Oracle Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/F80000/ffffff?text=OR'">
+                            <span class="text-xs text-gray-700">Oracle ERP</span>
+                        </div>
+                        <!-- Technical Skill 6: Microsoft Excel -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/microsoft.com?size=80" alt="Excel Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/217346/ffffff?text=XL'">
+                            <span class="text-xs text-gray-700">MS Excel</span>
+                        </div>
+                        <!-- Technical Skill 7: Looker Studio -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <img src="https://logo.clearbit.com/google.com?size=80" alt="Looker Studio Logo" class="w-10 h-10 mb-1" onerror="this.onerror=null; this.src='https://placehold.co/40x40/4285F4/ffffff?text=LKR'">
+                            <span class="text-xs text-gray-700">Looker Studio</span>
+                        </div>
+                        <!-- Technical Skill 8: SQL -->
+                        <div class="flex flex-col items-center flex-shrink-0 w-20">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-1 secondary-color" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3 4 10 4 10-4 10-4"/><path d="M6 12l2 4 4-4 4 4 2-4"/></svg>
+                            <span class="text-xs text-gray-700">SQL</span>
+                        </div>
                     </div>
                 </div>
             </section>
